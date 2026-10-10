@@ -1,0 +1,83 @@
+
+{
+  "plastic": {
+    "display_name": "Plastic",
+    "waste_type": "Recyclable Waste",
+    "recommended_action": "Empty the container and follow local plastic recycling rules.",
+    "collection_route": "Accepted plastic recycling collection",
+    "ordinary_bin": "Depends on local rules",
+    "special_facility_required": false,
+    "safety": "Do not recycle containers with unknown chemical contents without checking local guidance.",
+    "icon": "♻️"
+  },
+  "paper": {
+    "display_name": "Paper",
+    "waste_type": "Potentially Recyclable Waste",
+    "recommended_action": "Keep paper dry and separate from contaminated materials.",
+    "collection_route": "Paper recycling collection",
+    "ordinary_bin": "Depends on local rules",
+    "special_facility_required": false,
+    "safety": "Avoid recycling paper contaminated with oil or unsuitable substances.",
+    "icon": "📄"
+  },
+  "glass": {
+    "display_name": "Glass",
+    "waste_type": "Potentially Recyclable Waste",
+    "recommended_action": "Follow local glass collection rules and use a designated collection point where available.",
+    "collection_route": "Glass recycling collection",
+    "ordinary_bin": "Depends on local rules",
+    "special_facility_required": false,
+    "safety": "Do not handle broken glass with bare hands.",
+    "icon": "🫙"
+  },
+  "metal": {
+    "display_name": "Metal",
+    "waste_type": "Potentially Recyclable Waste",
+    "recommended_action": "Separate accepted metal items and follow local recycling requirements.",
+    "collection_route": "Metal recycling collection",
+    "ordinary_bin": "Depends on local rules",
+    "special_facility_required": false,
+    "safety": "Handle sharp metal edges carefully.",
+    "icon": "🥫"
+  },
+  "battery": {
+    "display_name": "Battery",
+    "waste_type": "Special Collection Waste",
+    "recommended_action": "Keep batteries separate from ordinary household waste and take them to an appropriate battery collection point.",
+    "collection_route": "Battery collection point or authorized battery recycler",
+    "ordinary_bin": false,
+    "special_facility_required": true,
+    "safety": "Do not dismantle, crush, puncture or burn batteries. Seek professional guidance for damaged, swollen or leaking batteries.",
+    "icon": "🔋"
+  },
+  "e_waste": {
+    "display_name": "Electronic Waste",
+    "waste_type": "Special Collection Waste",
+    "recommended_action": "Keep electronic waste separate from ordinary household waste and use an authorized e-waste collection facility or take-back program.",
+    "collection_route": "Authorized e-waste collection facility",
+    "ordinary_bin": false,
+    "special_facility_required": true,
+    "safety": "Do not burn or dismantle electronic waste without suitable training.",
+    "icon": "💻"
+  },
+  "organic": {
+    "display_name": "Organic Waste",
+    "waste_type": "Biodegradable Waste",
+    "recommended_action": "Separate suitable food scraps for organic waste collection or composting where available.",
+    "collection_route": "Organic waste collection or composting facility",
+    "ordinary_bin": "Depends on local rules",
+    "special_facility_required": false,
+    "safety": "Store food waste properly to reduce pests and unpleasant odours.",
+    "icon": "🍃"
+  },
+  "general": {
+    "display_name": "General Waste",
+    "waste_type": "Unclassified Waste",
+    "recommended_action": "Check whether the item is recyclable or hazardous before using general waste collection.",
+    "collection_route": "Municipal general waste service, if accepted",
+    "ordinary_bin": "Only if local rules permit",
+    "special_facility_required": "Check the item before disposal",
+    "safety": "Do not assume unidentified waste, batteries or electronic waste are safe for ordinary disposal.",
+    "icon": "🗑️"
+  }
+}
